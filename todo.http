@@ -1,0 +1,30 @@
+DELETE http://localhost:3000
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+###
+PUT http://localhost:3000
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Jalan-jalan"
+}
+
+###
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Coding"
+}
+
+###
+GET http://localhost:3000
+Accept: application/json
+
+###
