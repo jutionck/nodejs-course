@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-fundamental-udemy",
+  "version": "1.0.0",
+  "description": "### Pengenalan - JavaScript berjalan di sebuah browser menggunakan engine bernama V8 - Oleh karena itu untuk menjalankan JavaScript di sisi server kita membutuhkan sebuah NodeJS - NodeJS sendiri baru diperkenalkan pada tahun 2009 dan sampai dengan saat ini bersifat Free & Open Source - NodeJS bisa berjalan secara Server Side dengan bahasa pemrograman yang digunakan adalah JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
