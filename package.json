@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-fundamental-udemy",
+  "version": "1.0.0",
+  "description": "### Materi - NPM tidak hanya digunakan untuk management project NodeJS - NPM juaga bisa sebagai management dependency - NPM pasti mempunyai sebuah file yang bernama `package.json` - Kemudian ada sebuah folder dari hasil `package.json` yaitu `node_modules` - Dependency yang tersedia bisa kunjungi di web https://npmjs.com",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "echo \"before start\"",
+    "start": "node index.js",
+    "poststart": "echo \"after start\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jutionck/nodejs-course.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jutionck/nodejs-course/issues"
+  },
+  "homepage": "https://github.com/jutionck/nodejs-course#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "npm-library-jutionck": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.4"
+  }
+}
